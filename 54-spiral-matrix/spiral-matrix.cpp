@@ -27,6 +27,7 @@ public:
             ans.push_back(matrix[endRow][i]);
         }
         //left boundary , startCol fixed
+        // -1 , +1 vrna duplicate
         for(int j=endRow-1; j>= startRow+1; j--){
         if(startCol == endCol){break ;}
             ans.push_back(matrix[j][startCol]);
