@@ -1,6 +1,7 @@
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
+    // optimal approach
     // O(n) Approach using unorderdmap
     int n = nums.size();
     unordered_map<int,int> seenNumbers(n);
