@@ -6,7 +6,7 @@ public:
         int missingVal;
         int expectedSum = 0;
         int actualSum = 0 ;
-        
+        // unorderd set se bhi ho skta h unorderd map se bhi , map mein index aur val ka key val pair bnalo, aur har ek ele ka count rkho agr count>1 h current i ka to vo repeating h vrna count 0 h to missing h
         unordered_set<int>seen;
         //  seen aise numbers jo ek bar dekh liye set -> seen
         for(int i=0; i<n; i++){
