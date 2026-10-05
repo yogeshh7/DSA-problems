@@ -1,6 +1,6 @@
 class Solution {
 public:
-// optimal
+    // optimal soln -> hashing 
     int subarraySum(vector<int>& nums, int k) {
         int  n = nums.size();
         int currSum = 0;
